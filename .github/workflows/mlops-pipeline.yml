@@ -4,7 +4,7 @@ name: Forages MLOps Pipeline
 on:
   schedule:
     # Tous les jours à 02 h 00 au Burkina Faso
-    - cron: "0 2 * * *"
+    - cron: "*/5 * * * *"
       timezone: "Africa/Ouagadougou"
 
   workflow_dispatch:
