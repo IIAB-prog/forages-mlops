@@ -3,7 +3,7 @@ name: Forages MLOps Pipeline
 
 on:
   schedule:
-    # Tous les jours à 02 h 00 au Burkina Faso
+    # Tous les 5 minutes au Burkina Faso
     - cron: "*/5 * * * *"
       timezone: "Africa/Ouagadougou"
 
