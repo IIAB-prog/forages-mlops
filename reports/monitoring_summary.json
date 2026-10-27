@@ -1,0 +1,18 @@
+{
+  "reference_rows": 3000,
+  "current_rows": 600,
+  "drifted_features": 2,
+  "total_features_checked": 8,
+  "retraining_triggered": true,
+  "trigger_reasons": [
+    "au moins deux variables en dérive"
+  ],
+  "decision": "RETRAINING_REQUIRED",
+  "performance_on_labeled_recent_data": {
+    "labeled_recent_rows": 600,
+    "recent_average_precision": 0.7385861071091139,
+    "recent_roc_auc": 0.7800642869987413,
+    "available": true
+  },
+  "caveat": "La dérive ne prouve pas à elle seule une baisse de performance. Les labels doivent être fiables."
+}

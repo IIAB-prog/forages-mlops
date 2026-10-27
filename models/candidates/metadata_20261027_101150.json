@@ -1,0 +1,31 @@
+{
+  "model_name": "logistic_regression",
+  "target": "panne_90j",
+  "features": [
+    "age_ans",
+    "profondeur_m",
+    "debit_m3h",
+    "usagers_jour",
+    "jours_depuis_maintenance",
+    "pannes_12m",
+    "type_pompe",
+    "region"
+  ],
+  "threshold": 0.5,
+  "random_state": 42,
+  "test_size": 0.2,
+  "metrics": {
+    "average_precision": 0.6753994434494266,
+    "roc_auc": 0.7521511518010503,
+    "precision": 0.562874251497006,
+    "recall": 0.6937269372693727,
+    "f1": 0.6214876033057851,
+    "accuracy": 0.6819444444444445,
+    "run_name": "logistic_regression",
+    "fit_seconds": 0.03,
+    "threshold": 0.5
+  },
+  "minimum_average_precision": 0.5,
+  "performance_gate_passed": true,
+  "model_artifact": "forage_risk_candidate_20261027_101150.joblib"
+}
